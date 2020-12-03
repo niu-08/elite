@@ -1,0 +1,119 @@
+.a{
+	width : auto;
+	text-align: center;
+	
+
+}
+
+.responsive{
+	width: 100%;
+	height: 720px;
+}
+
+.parallax {
+  /* The image used */
+  /*background-image: url(images/2.jpg);*/
+
+  /* Set a specific height */
+  min-height: 770px; 
+  width: 100%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax2 {
+  /* The image used */
+  /*background-image: url(images/2.jpg);*/
+
+  /* Set a specific height */
+  min-height: 500px; 
+  width: 100%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.delay{
+  width: 500px;
+  height: 150px;
+  
+  position: relative;
+  animation: mymove 5s;
+  animation-delay: 2s;
+  animation-fill-mode: forwards;
+
+}
+
+@keyframes mymove{
+  from {left: 0px;}
+  to {left: 1000px;}
+  
+}
+
+div.gallery {
+  margin: 50px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 200px;
+  margin-top: -50px;
+  
+}
+
+.gallery:hover {
+  border: 1px solid #777;
+ 
+}
+
+div.gallery img {
+  width: 100%;
+  height: 200px;
+  
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+  color: black;
+  font-weight: bold;
+}
+
+.footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  content: white;
+  text-align: center;
+}
+
+.link{
+	text-decoration: none;
+}
+
+.detail{
+	float: left;
+	margin-top: 80px;
+	margin-left: 17px;
+	
+}
+.description{
+	border: 1px solid black;
+	float: left;
+	height: 500px;
+	width: 500px;
+	margin-left: 100px;
+}
+.desc1{
+	height: 500px;
+	width: 500px;
+	float: left;
+	border: 1px solid black;
+}
